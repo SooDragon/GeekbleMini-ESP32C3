@@ -1,0 +1,1848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/soodragon/Library/Mobile Documents/com~apple~CloudDocs/CircuitProjects/GeekDuino/Geekble_Mini_ESP32C3_4L_Ver.1.1.0_20240426/Geekble_Mini_ESP32C3.kicad_sch</source>
+    <date>Friday, April 26, 2024 at 04:03:31 PM</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>Geekble</company>
+        <rev>1</rev>
+        <date/>
+        <source>Geekble_Mini_ESP32C3.kicad_sch</source>
+        <comment number="1" value="2-Layer, 1-Oz, JLC PCB Fabrication"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="SooDragon"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="ANT1">
+      <value>KH-5020D245M0X</value>
+      <footprint>RadioFrequencyChip_Antenna:ANT_5020</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_Shenzhen-Kinghelm-Elec-KH-5020D245M0X_C454142.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C454142</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">Shenzhen Kinghelm Elec</field>
+        <field name="Manufacturer Part Number">KH-5020D245M0X</field>
+      </fields>
+      <libsource lib="RadioFrequencyChip_Antenna" part="KH-5020D245M0X" description="2450MHz Center Frequency, 3.19dBi Peak Gain, Monopole &amp; Single Feeding, 4W, "/>
+      <property name="LCSC" value="C454142"/>
+      <property name="Manufacturer Part Number" value="KH-5020D245M0X"/>
+      <property name="Manufacturer" value="Shenzhen Kinghelm Elec"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="2450MHz Center Frequency, 3.19dBi Peak Gain, Monopole &amp; Single Feeding, 4W, "/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>530d4341-76c3-4993-ad75-1d95ddd2b96c</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1.8pF,50V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811141242_YAGEO-CC0402BRNPO9BN1R8_C327209.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C327209</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">CC0402BRNPO9BN1R8</field>
+      </fields>
+      <libsource lib="Capacitors" part="1.8pF,50V" description="50V 1.8pF NP0 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C327209"/>
+      <property name="Manufacturer Part Number" value="CC0402BRNPO9BN1R8"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="50V 1.8pF NP0 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eed57e92-fe63-4c98-9da7-c60a914c228d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1.8pF,50V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811141242_YAGEO-CC0402BRNPO9BN1R8_C327209.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C327209</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">CC0402BRNPO9BN1R8</field>
+      </fields>
+      <libsource lib="Capacitors" part="1.8pF,50V" description="50V 1.8pF NP0 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C327209"/>
+      <property name="Manufacturer Part Number" value="CC0402BRNPO9BN1R8"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="50V 1.8pF NP0 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5dfc96ee-5f69-49dc-979c-4d01fb007c52</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF,10V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_Taiyo-Yuden-LDK105CBJ106MVLF_C386033.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C386033</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer Part Number">LDK105CBJ106MVLF</field>
+      </fields>
+      <libsource lib="Capacitors" part="10uF,10V" description="X5R ±20% 10V 10uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C386033"/>
+      <property name="Manufacturer Part Number" value="LDK105CBJ106MVLF"/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="X5R ±20% 10V 10uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1f07ccf-0989-44aa-8a00-88f7db2c6ea4</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF,50V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KB54PNC</field>
+      </fields>
+      <libsource lib="Capacitors" part="100nF,50V" description="X7R 100nF ±10% 50V 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Manufacturer Part Number" value="CL05B104KB54PNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="X7R 100nF ±10% 50V 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42982422-7819-4776-ad11-5e5582992203</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF,10V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_Taiyo-Yuden-LDK105CBJ106MVLF_C386033.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C386033</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer Part Number">LDK105CBJ106MVLF</field>
+      </fields>
+      <libsource lib="Capacitors" part="10uF,10V" description="X5R ±20% 10V 10uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C386033"/>
+      <property name="Manufacturer Part Number" value="LDK105CBJ106MVLF"/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="X5R ±20% 10V 10uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b46299c4-6a29-4097-80a5-efced6cb3eb3</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF,10V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_Taiyo-Yuden-LDK105CBJ106MVLF_C386033.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C386033</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer Part Number">LDK105CBJ106MVLF</field>
+      </fields>
+      <libsource lib="Capacitors" part="10uF,10V" description="X5R ±20% 10V 10uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C386033"/>
+      <property name="Manufacturer Part Number" value="LDK105CBJ106MVLF"/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="X5R ±20% 10V 10uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a90e34c-7ca9-49c1-a7db-c6e581534332</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF,50V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KB54PNC</field>
+      </fields>
+      <libsource lib="Capacitors" part="100nF,50V" description="X7R 100nF ±10% 50V 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Manufacturer Part Number" value="CL05B104KB54PNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="X7R 100nF ±10% 50V 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44853f49-04e2-48c8-8319-10f2b08b9fc7</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uF,25V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811091611_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05A105KA5NQNC</field>
+      </fields>
+      <libsource lib="Capacitors" part="1uF,25V" description="X5R 25V ±10% 1uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Manufacturer Part Number" value="CL05A105KA5NQNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="X5R 25V ±10% 1uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>370cd821-b519-4214-ac08-e533fc46096d</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1uF,25V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811091611_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05A105KA5NQNC</field>
+      </fields>
+      <libsource lib="Capacitors" part="1uF,25V" description="X5R 25V ±10% 1uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Manufacturer Part Number" value="CL05A105KA5NQNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="X5R 25V ±10% 1uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>426d7541-b23f-4c9e-a45b-969becefb046</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10nF,50V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191223_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B103KB5NNNC</field>
+      </fields>
+      <libsource lib="Capacitors" part="10nF,50V" description="50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Manufacturer Part Number" value="CL05B103KB5NNNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b88418a-1649-4153-bb0b-86bfd2bd5da0</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF,50V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KB54PNC</field>
+      </fields>
+      <libsource lib="Capacitors" part="100nF,50V" description="X7R 100nF ±10% 50V 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Manufacturer Part Number" value="CL05B104KB54PNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="X7R 100nF ±10% 50V 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>160f8a8e-aef9-49a9-a89b-445c4bbc7783</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>15pF,50V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG150J500NT_C1548.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1548</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">FH (Guangdong Fenghua Advanced Tech)</field>
+        <field name="Manufacturer Part Number">0402CG150J500NT</field>
+      </fields>
+      <libsource lib="Capacitors" part="15pF,50V" description="50V 15pF C0G ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C1548"/>
+      <property name="Manufacturer Part Number" value="0402CG150J500NT"/>
+      <property name="Manufacturer" value="FH (Guangdong Fenghua Advanced Tech)"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="50V 15pF C0G ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abe6f65d-7165-4bd1-aa94-7c927e3463a0</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>15pF,50V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG150J500NT_C1548.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1548</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">FH (Guangdong Fenghua Advanced Tech)</field>
+        <field name="Manufacturer Part Number">0402CG150J500NT</field>
+      </fields>
+      <libsource lib="Capacitors" part="15pF,50V" description="50V 15pF C0G ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C1548"/>
+      <property name="Manufacturer Part Number" value="0402CG150J500NT"/>
+      <property name="Manufacturer" value="FH (Guangdong Fenghua Advanced Tech)"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="50V 15pF C0G ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6b94d72-b19c-4d7b-b69a-ed939145300c</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1uF,25V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811091611_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05A105KA5NQNC</field>
+      </fields>
+      <libsource lib="Capacitors" part="1uF,25V" description="X5R 25V ±10% 1uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Manufacturer Part Number" value="CL05A105KA5NQNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="X5R 25V ±10% 1uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f77ff16-47d6-4726-85e4-aaa341a53917</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF,50V</value>
+      <footprint>Capacitors:C_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KB54PNC</field>
+      </fields>
+      <libsource lib="Capacitors" part="100nF,50V" description="X7R 100nF ±10% 50V 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Manufacturer Part Number" value="CL05B104KB54PNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="X7R 100nF ±10% 50V 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d323f2b-741c-48fa-a244-a00c975d46dd</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819WS</value>
+      <footprint>Diodes:SOD-323F</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C191023</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Guangdong Hottech</field>
+        <field name="Manufacturer Part Number">1N5819WS</field>
+      </fields>
+      <libsource lib="Diodes" part="1N5819WS" description="40V 600mV@1A 1A SOD-323  Schottky Barrier Diodes (SBD) ROHS"/>
+      <property name="LCSC" value="C191023"/>
+      <property name="Manufacturer Part Number" value="1N5819WS"/>
+      <property name="Manufacturer" value="Guangdong Hottech"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="40V 600mV@1A 1A SOD-323  Schottky Barrier Diodes (SBD) ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3ef0c0e-fb32-49a0-8f1e-a5c81668662b</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b5f099c-11cb-4e82-b40d-9c4bb58aa847</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>852a0d7c-2c1b-4c1a-912d-34f3b34cdd24</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5148b54-c95a-40bc-ac39-e3ca0eb6a6b3</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62bd4445-25a2-45c4-915b-a662d914a18f</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>941d7aa1-61a3-473f-84b8-484277e526b8</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84d59b11-8862-4d41-bf7d-6cc421d7bb7b</tstamps>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c38ee38b-d05b-4981-8f65-32a438587c9a</tstamps>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7bd0dcd-81fc-4581-81ee-5ceb74b9108f</tstamps>
+    </comp>
+    <comp ref="H9">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1c926d6-6705-46f2-ae50-621bfef9e109</tstamps>
+    </comp>
+    <comp ref="H10">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdd13b83-dd5f-4470-9414-66e714c9ea12</tstamps>
+    </comp>
+    <comp ref="H11">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fcadffe-9a76-4b61-a46a-9eb5271c90b6</tstamps>
+    </comp>
+    <comp ref="H12">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cb7b1c8-eb16-4fb6-96ce-6650a0b64a51</tstamps>
+    </comp>
+    <comp ref="H13">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d548b05-ba86-4586-8ed6-2ec1476f8291</tstamps>
+    </comp>
+    <comp ref="H14">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6e020fb-b89c-4648-9eb9-0f56166bd964</tstamps>
+    </comp>
+    <comp ref="H15">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0dfbced-bbd3-4a9a-98e2-620301a36ae5</tstamps>
+    </comp>
+    <comp ref="H16">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cada1c34-b6c5-48df-9ee1-3bfb50f215ac</tstamps>
+    </comp>
+    <comp ref="H17">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a95ac896-a751-4d30-a7b6-2aac494362de</tstamps>
+    </comp>
+    <comp ref="H18">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f60edd4-1a03-460e-9775-e27b79ac1f79</tstamps>
+    </comp>
+    <comp ref="H19">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e294079f-f6dc-4ffd-997c-11683cc64175</tstamps>
+    </comp>
+    <comp ref="H20">
+      <value>MountingHole_Pad</value>
+      <footprint>Connectors:1x1_P2.54_CastellatedPad</footprint>
+      <libsource lib="Marks" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e94c0adf-83b1-4afe-9312-4d65774608b4</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0_DIP</value>
+      <footprint>Connectors:USB_DIP,8.94x7.3mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811131825_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C165948</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">Korean Hroparts Elec</field>
+        <field name="Manufacturer Part Number">TYPE-C-31-M-12</field>
+      </fields>
+      <libsource lib="Connectors" part="USB_C_Receptacle_USB2.0_DIP" description="USB - Type C Female 16 8.94*7.3mm USB Connectors RoHS"/>
+      <property name="LCSC" value="C165948"/>
+      <property name="Manufacturer Part Number" value="TYPE-C-31-M-12"/>
+      <property name="Manufacturer" value="Korean Hroparts Elec"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="USB - Type C Female 16 8.94*7.3mm USB Connectors RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36926ade-7eae-4626-a3e3-b8bca07e6194</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>2.7nH,500mA,100mR</value>
+      <footprint>Inductors_Chokes_Transformers:L_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_TDK-MLK1005S2N7ST000_C76791.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C76791</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Manufacturer Part Number">MLK1005S2N7ST000</field>
+      </fields>
+      <libsource lib="Inductors_Chokes_Transformers" part="2.7nH,500mA,100mR" description="500mA 2.7nH 100mΩ 0402  Inductors (SMD) ROHS"/>
+      <property name="LCSC" value="C76791"/>
+      <property name="Manufacturer Part Number" value="MLK1005S2N7ST000"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="500mA 2.7nH 100mΩ 0402  Inductors (SMD) ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45873b54-84ee-44a8-899e-f69e49339439</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>2.7nH,500mA,100mR</value>
+      <footprint>Inductors_Chokes_Transformers:L_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_TDK-MLK1005S2N7ST000_C76791.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C76791</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Manufacturer Part Number">MLK1005S2N7ST000</field>
+      </fields>
+      <libsource lib="Inductors_Chokes_Transformers" part="2.7nH,500mA,100mR" description="500mA 2.7nH 100mΩ 0402  Inductors (SMD) ROHS"/>
+      <property name="LCSC" value="C76791"/>
+      <property name="Manufacturer Part Number" value="MLK1005S2N7ST000"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="500mA 2.7nH 100mΩ 0402  Inductors (SMD) ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a69301be-49e1-4c92-8253-89b8dec8dfc6</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>LED,0603,Red</value>
+      <footprint>Diodes:LED_0603_Red</footprint>
+      <datasheet>Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2286</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Hubei KENTO Elec</field>
+        <field name="Manufacturer Part Number">KT-0603R</field>
+      </fields>
+      <libsource lib="Diodes" part="LED,0603,Red" description="LIGHT EMITTING DIODES (LED) RED 520~625NM 90~100MCD@20MA TOP VIEW 0603 ROHS"/>
+      <property name="LCSC" value="C2286"/>
+      <property name="Manufacturer Part Number" value="KT-0603R"/>
+      <property name="Manufacturer" value="Hubei KENTO Elec"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="LIGHT EMITTING DIODES (LED) RED 520~625NM 90~100MCD@20MA TOP VIEW 0603 ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c460fbb-7680-4973-ac60-facd2199f277</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>LED,0603,White</value>
+      <footprint>Diodes:LED_0603_White</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-0603White-light-173-207mcd_C2290.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2290</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Hubei KENTO Elec</field>
+        <field name="Manufacturer Part Number">-</field>
+      </fields>
+      <libsource lib="Diodes" part="LED,0603,White" description="LIGHT EMITTING DIODES (LED) WHITE 173~207MCD@20MA TOP VIEW 0603 ROHS"/>
+      <property name="LCSC" value="C2290"/>
+      <property name="Manufacturer Part Number" value="-"/>
+      <property name="Manufacturer" value="Hubei KENTO Elec"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="LIGHT EMITTING DIODES (LED) WHITE 173~207MCD@20MA TOP VIEW 0603 ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>506641cd-e749-41a8-a7eb-f9dd07266568</tstamps>
+    </comp>
+    <comp ref="Logo1">
+      <value>Geekble_Logo</value>
+      <footprint>Marks:SooDragonKOR_Mask_3.8x1.4</footprint>
+      <libsource lib="Marks" part="Geekble_Logo" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab777a3b-889d-49dd-9be1-cc1c3ef22a0e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1KR,1%</value>
+      <footprint>Resistors:R_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25905</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Manufacturer Part Number">0402WGF5101TCE</field>
+      </fields>
+      <libsource lib="Resistors" part="5.1KR,1%" description="CHIP RESISTOR - SURFACE MOUNT 5.1KOHMS ±1% 1/16W 0402 ROHS"/>
+      <property name="LCSC" value="C25905"/>
+      <property name="Manufacturer Part Number" value="0402WGF5101TCE"/>
+      <property name="Manufacturer" value="Uniroyal Elec"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="CHIP RESISTOR - SURFACE MOUNT 5.1KOHMS ±1% 1/16W 0402 ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00c3a67d-3a32-4356-8df2-c0ec47d81e55</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1KR,1%</value>
+      <footprint>Resistors:R_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25905</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Manufacturer Part Number">0402WGF5101TCE</field>
+      </fields>
+      <libsource lib="Resistors" part="5.1KR,1%" description="CHIP RESISTOR - SURFACE MOUNT 5.1KOHMS ±1% 1/16W 0402 ROHS"/>
+      <property name="LCSC" value="C25905"/>
+      <property name="Manufacturer Part Number" value="0402WGF5101TCE"/>
+      <property name="Manufacturer" value="Uniroyal Elec"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="CHIP RESISTOR - SURFACE MOUNT 5.1KOHMS ±1% 1/16W 0402 ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fb462a3-e367-41d2-8238-0dbc4fe288dd</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>33R,1%</value>
+      <footprint>Resistors:R_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301314_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25105</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Manufacturer Part Number">0402WGF330JTCE</field>
+      </fields>
+      <libsource lib="Resistors" part="33R,1%" description="33Ω ±1% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C25105"/>
+      <property name="Manufacturer Part Number" value="0402WGF330JTCE"/>
+      <property name="Manufacturer" value="Uniroyal Elec"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="33Ω ±1% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3dbe465-e43e-4305-a063-0a701fd8e635</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>33R,1%</value>
+      <footprint>Resistors:R_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301314_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25105</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Manufacturer Part Number">0402WGF330JTCE</field>
+      </fields>
+      <libsource lib="Resistors" part="33R,1%" description="33Ω ±1% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C25105"/>
+      <property name="Manufacturer Part Number" value="0402WGF330JTCE"/>
+      <property name="Manufacturer" value="Uniroyal Elec"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="33Ω ±1% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee5aa1fe-38fb-4a33-9e07-f46a5dfdf65d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10KR,1%</value>
+      <footprint>Resistors:R_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Manufacturer Part Number">0402WGF1002TCE</field>
+      </fields>
+      <libsource lib="Resistors" part="10KR,1%" description="CHIP RESISTOR - SURFACE MOUNT 10KOHMS ±1% 1/16W 0402 ROHS"/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Manufacturer Part Number" value="0402WGF1002TCE"/>
+      <property name="Manufacturer" value="Uniroyal Elec"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="CHIP RESISTOR - SURFACE MOUNT 10KOHMS ±1% 1/16W 0402 ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03e32501-b4b3-4564-bedc-629d2f3da75a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10KR,1%</value>
+      <footprint>Resistors:R_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Manufacturer Part Number">0402WGF1002TCE</field>
+      </fields>
+      <libsource lib="Resistors" part="10KR,1%" description="CHIP RESISTOR - SURFACE MOUNT 10KOHMS ±1% 1/16W 0402 ROHS"/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Manufacturer Part Number" value="0402WGF1002TCE"/>
+      <property name="Manufacturer" value="Uniroyal Elec"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="CHIP RESISTOR - SURFACE MOUNT 10KOHMS ±1% 1/16W 0402 ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5754b591-9c70-4ebf-8708-a93eb3eacc47</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>5.1KR,1%</value>
+      <footprint>Resistors:R_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25905</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Manufacturer Part Number">0402WGF5101TCE</field>
+      </fields>
+      <libsource lib="" part="5.1KR,1%_1" description="CHIP RESISTOR - SURFACE MOUNT 5.1KOHMS ±1% 1/16W 0402 ROHS"/>
+      <property name="LCSC" value="C25905"/>
+      <property name="Manufacturer Part Number" value="0402WGF5101TCE"/>
+      <property name="Manufacturer" value="Uniroyal Elec"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="CHIP RESISTOR - SURFACE MOUNT 5.1KOHMS ±1% 1/16W 0402 ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc23757f-0325-43e1-aa03-b83996ca27ca</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>5.1KR,1%</value>
+      <footprint>Resistors:R_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25905</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Manufacturer Part Number">0402WGF5101TCE</field>
+      </fields>
+      <libsource lib="" part="5.1KR,1%_1" description="CHIP RESISTOR - SURFACE MOUNT 5.1KOHMS ±1% 1/16W 0402 ROHS"/>
+      <property name="LCSC" value="C25905"/>
+      <property name="Manufacturer Part Number" value="0402WGF5101TCE"/>
+      <property name="Manufacturer" value="Uniroyal Elec"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="CHIP RESISTOR - SURFACE MOUNT 5.1KOHMS ±1% 1/16W 0402 ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d9894e9-414f-4800-8e06-cef6083011c3</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10KR,1%</value>
+      <footprint>Resistors:R_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Manufacturer Part Number">0402WGF1002TCE</field>
+      </fields>
+      <libsource lib="Resistors" part="10KR,1%" description="CHIP RESISTOR - SURFACE MOUNT 10KOHMS ±1% 1/16W 0402 ROHS"/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Manufacturer Part Number" value="0402WGF1002TCE"/>
+      <property name="Manufacturer" value="Uniroyal Elec"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="CHIP RESISTOR - SURFACE MOUNT 10KOHMS ±1% 1/16W 0402 ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae62b656-19d3-4c0d-a653-d880f81e1185</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10KR,1%</value>
+      <footprint>Resistors:R_0402</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+        <field name="Library Type">Basic</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Manufacturer Part Number">0402WGF1002TCE</field>
+      </fields>
+      <libsource lib="Resistors" part="10KR,1%" description="CHIP RESISTOR - SURFACE MOUNT 10KOHMS ±1% 1/16W 0402 ROHS"/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Manufacturer Part Number" value="0402WGF1002TCE"/>
+      <property name="Manufacturer" value="Uniroyal Elec"/>
+      <property name="Library Type" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="CHIP RESISTOR - SURFACE MOUNT 10KOHMS ±1% 1/16W 0402 ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f25d501-cf4b-4ac4-ad46-a29230eeff50</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>TS-1088-AR02016</value>
+      <footprint>Pushbutton_Switches_Relays:TS-1088-AR020</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C720477</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">XUNPU</field>
+        <field name="Manufacturer Part Number">TS-1088-AR02016</field>
+      </fields>
+      <libsource lib="Pushbutton_Switches_Relays" part="TS-1088-AR02016" description="NO 50mA 100MΩ 100000 Times 12V 160gf@±50gf Brick nogging SPST SMD  Tactile Switches ROHS"/>
+      <property name="Manufacturer" value="XUNPU"/>
+      <property name="Manufacturer Part Number" value="TS-1088-AR02016"/>
+      <property name="LCSC" value="C720477"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="NO 50mA 100MΩ 100000 Times 12V 160gf@±50gf Brick nogging SPST SMD  Tactile Switches ROHS"/>
+      <property name="ki_keywords" value="Tact Switch 4P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e9bb5ab-52f7-4ae1-88f6-411e7fb32383</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>TS-1088-AR02016</value>
+      <footprint>Pushbutton_Switches_Relays:TS-1088-AR020</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C720477</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">XUNPU</field>
+        <field name="Manufacturer Part Number">TS-1088-AR02016</field>
+      </fields>
+      <libsource lib="Pushbutton_Switches_Relays" part="TS-1088-AR02016" description="NO 50mA 100MΩ 100000 Times 12V 160gf@±50gf Brick nogging SPST SMD  Tactile Switches ROHS"/>
+      <property name="Manufacturer" value="XUNPU"/>
+      <property name="Manufacturer Part Number" value="TS-1088-AR02016"/>
+      <property name="LCSC" value="C720477"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="NO 50mA 100MΩ 100000 Times 12V 160gf@±50gf Brick nogging SPST SMD  Tactile Switches ROHS"/>
+      <property name="ki_keywords" value="Tact Switch 4P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1395e21d-cf21-44ee-b876-fe7d6ed40ce7</tstamps>
+    </comp>
+    <comp ref="TH2">
+      <value>ToolingHole</value>
+      <footprint>Marks:ToolingHole_JLCPCB</footprint>
+      <libsource lib="Marks" part="ToolingHole" description="ToolingHole for SMT assembly"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="ToolingHole for SMT assembly"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6017b78a-f980-41b5-9b60-a367774628f3</tstamps>
+    </comp>
+    <comp ref="TH3">
+      <value>ToolingHole</value>
+      <footprint>Marks:ToolingHole_JLCPCB</footprint>
+      <libsource lib="Marks" part="ToolingHole" description="ToolingHole for SMT assembly"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="ToolingHole for SMT assembly"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82ba596e-38e0-49f0-af16-7872f69aa7d4</tstamps>
+    </comp>
+    <comp ref="TH4">
+      <value>ToolingHole</value>
+      <footprint>Marks:ToolingHole_JLCPCB</footprint>
+      <libsource lib="Marks" part="ToolingHole" description="ToolingHole for SMT assembly"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="ToolingHole for SMT assembly"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e02a1d0-1e5e-431f-aec8-4acb9a60456c</tstamps>
+    </comp>
+    <comp ref="TH5">
+      <value>ToolingHole</value>
+      <footprint>Marks:ToolingHole_JLCPCB</footprint>
+      <libsource lib="Marks" part="ToolingHole" description="ToolingHole for SMT assembly"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="ToolingHole for SMT assembly"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f07d91a-dc54-4d4e-bde3-1a034d0aa2e5</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LP5907MFX-3.3/NOPB</value>
+      <footprint>Power_Management_ICs:SOT-23-5</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810271029_Texas-Instruments-LP5907MFX-3-3-NOPB_C80670.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C80670</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">LP5907MFX-3.3/NOPB</field>
+      </fields>
+      <libsource lib="Power_Management_ICs" part="LP5907MFX-3.3/NOPB" description="90dB@(100Hz),60dB@(100kHz) 250mA 250mV@(250mA) Fixed 3.3V~3.3V Positive 1 5.5V SOT-23-5  Linear Voltage Regulators (LDO) ROHS"/>
+      <property name="LCSC" value="C80670"/>
+      <property name="Manufacturer Part Number" value="LP5907MFX-3.3/NOPB"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="90dB@(100Hz),60dB@(100kHz) 250mA 250mV@(250mA) Fixed 3.3V~3.3V Positive 1 5.5V SOT-23-5  Linear Voltage Regulators (LDO) ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc7537e4-75c3-4e3f-b320-0dee9634fafb</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ESP32-C3FH4</value>
+      <footprint>Embedded_Processors_Controllers:QFN-32-EP(5x5)</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Microchip-Tech-ATMEGA328P-AU_C14877.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2858491</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">Espressif Systems</field>
+        <field name="Manufacturer Part Number">ESP32-C3FH4</field>
+      </fields>
+      <libsource lib="Embedded_Processors_Controllers" part="ESP32-C3FH4" description="ESP32-C3, InPackage 4MB Flash, Temp -40~105, QFN32, 22 GPIO, ChipRev v0.4"/>
+      <property name="LCSC" value="C2858491"/>
+      <property name="Manufacturer Part Number" value="ESP32-C3FH4"/>
+      <property name="Manufacturer" value="Espressif Systems"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="ESP32-C3, InPackage 4MB Flash, Temp -40~105, QFN32, 22 GPIO, ChipRev v0.4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fda63dad-56c8-4292-9a9c-789dd5fc0641</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>40MHz</value>
+      <footprint>Crystals:SMD-3225_4P</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2103291204_YXC-X322540MPB4SI_C9010.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C9010</field>
+        <field name="Library Type">Extended</field>
+        <field name="Manufacturer">YXC</field>
+        <field name="Manufacturer Part Number">X322540MPB4SI</field>
+      </fields>
+      <libsource lib="Crystals" part="40MHz" description="40MHz 15pF ±10ppm SMD3225-4P  Crystals ROHS"/>
+      <property name="LCSC" value="C9010"/>
+      <property name="Manufacturer Part Number" value="X322540MPB4SI"/>
+      <property name="Manufacturer" value="YXC"/>
+      <property name="Library Type" value="Extended"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Geekble_Mini_ESP32C3.kicad_sch"/>
+      <property name="ki_description" value="40MHz 15pF ±10ppm SMD3225-4P  Crystals ROHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91cf4146-3ffa-4277-bcab-dd806f673f44</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="5.1KR,1%_1">
+      <description>CHIP RESISTOR - SURFACE MOUNT 5.1KOHMS ±1% 1/16W 0402 ROHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf</docs>
+      <footprints>
+        <fp>R_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">5.1KR,1%</field>
+        <field name="Footprint">Resistors:R_0402</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf</field>
+        <field name="LCSC">C25905</field>
+        <field name="Manufacturer Part Number">0402WGF5101TCE</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Library Type">Basic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors" part="1.8pF,50V">
+      <description>50V 1.8pF NP0 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1811141242_YAGEO-CC0402BRNPO9BN1R8_C327209.pdf</docs>
+      <footprints>
+        <fp>Capacitor_SMD:C_0402*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1.8pF,50V</field>
+        <field name="Footprint">Capacitors:C_0402</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1811141242_YAGEO-CC0402BRNPO9BN1R8_C327209.pdf</field>
+        <field name="LCSC">C327209</field>
+        <field name="Manufacturer Part Number">CC0402BRNPO9BN1R8</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Library Type">Extended</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors" part="100nF,50V">
+      <description>X7R 100nF ±10% 50V 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf</docs>
+      <footprints>
+        <fp>Capacitor_SMD:C_0402*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF,50V</field>
+        <field name="Footprint">Capacitors:C_0402</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer Part Number">CL05B104KB54PNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Library Type">Basic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors" part="10nF,50V">
+      <description>50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1810191223_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf</docs>
+      <footprints>
+        <fp>Capacitor_SMD:C_0402*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10nF,50V</field>
+        <field name="Footprint">Capacitors:C_0402</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1810191223_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf</field>
+        <field name="LCSC">C15195</field>
+        <field name="Manufacturer Part Number">CL05B103KB5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Library Type">Basic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors" part="10uF,10V">
+      <description>X5R ±20% 10V 10uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1912111437_Taiyo-Yuden-LDK105CBJ106MVLF_C386033.pdf</docs>
+      <footprints>
+        <fp>Capacitor_SMD:C_0402*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF,10V</field>
+        <field name="Footprint">Capacitors:C_0402</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1912111437_Taiyo-Yuden-LDK105CBJ106MVLF_C386033.pdf</field>
+        <field name="LCSC">C386033</field>
+        <field name="Manufacturer Part Number">LDK105CBJ106MVLF</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Library Type">Extended</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors" part="15pF,50V">
+      <description>50V 15pF C0G ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG150J500NT_C1548.pdf</docs>
+      <footprints>
+        <fp>Capacitor_SMD:C_0402*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">15pF,50V</field>
+        <field name="Footprint">Capacitors:C_0402</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG150J500NT_C1548.pdf</field>
+        <field name="LCSC">C1548</field>
+        <field name="Manufacturer Part Number">0402CG150J500NT</field>
+        <field name="Manufacturer">FH (Guangdong Fenghua Advanced Tech)</field>
+        <field name="Library Type">Basic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors" part="1uF,25V">
+      <description>X5R 25V ±10% 1uF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1811091611_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf</docs>
+      <footprints>
+        <fp>Capacitor_SMD:C_0402*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF,25V</field>
+        <field name="Footprint">Capacitors:C_0402</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1811091611_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf</field>
+        <field name="LCSC">C52923</field>
+        <field name="Manufacturer Part Number">CL05A105KA5NQNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Library Type">Basic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connectors" part="USB_C_Receptacle_USB2.0_DIP">
+      <description>USB - Type C Female 16 8.94*7.3mm USB Connectors RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/1811131825_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf</docs>
+      <footprints>
+        <fp>TYPE-C-31_L8.94_W7.3</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0_DIP</field>
+        <field name="Footprint">Connectors:USB_DIP,8.94x7.3mm</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/1811131825_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf</field>
+        <field name="LCSC">C165948</field>
+        <field name="Manufacturer Part Number">TYPE-C-31-M-12</field>
+        <field name="Manufacturer">Korean Hroparts Elec</field>
+        <field name="Library Type">Extended</field>
+      </fields>
+      <pins>
+        <pin num="A1B12" name="GND" type="passive"/>
+        <pin num="A4B9" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D1+" type="bidirectional"/>
+        <pin num="A7" name="D1-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="B1A12" name="GND" type="passive"/>
+        <pin num="B4A9" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D2+" type="bidirectional"/>
+        <pin num="B7" name="D2-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+        <pin num="S3" name="SHIELD" type="passive"/>
+        <pin num="S4" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crystals" part="40MHz">
+      <description>40MHz 15pF ±10ppm SMD3225-4P  Crystals ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2103291204_YXC-X322540MPB4SI_C9010.pdf</docs>
+      <footprints>
+        <fp>SMD-3225_4P</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">40MHz</field>
+        <field name="Footprint">Crystals:SMD-3225_4P</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2103291204_YXC-X322540MPB4SI_C9010.pdf</field>
+        <field name="LCSC">C9010</field>
+        <field name="Manufacturer Part Number">X322540MPB4SI</field>
+        <field name="Manufacturer">YXC</field>
+        <field name="Library Type">Extended</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OSC1" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OSC2" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diodes" part="1N5819WS">
+      <description>40V 600mV@1A 1A SOD-323  Schottky Barrier Diodes (SBD) ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf</docs>
+      <footprints>
+        <fp>SOD-323F</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819WS</field>
+        <field name="Footprint">Diodes:SOD-323F</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf</field>
+        <field name="LCSC">C191023</field>
+        <field name="Manufacturer Part Number">1N5819WS</field>
+        <field name="Manufacturer">Guangdong Hottech</field>
+        <field name="Library Type">Basic</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diodes" part="LED,0603,Red">
+      <description>LIGHT EMITTING DIODES (LED) RED 520~625NM 90~100MCD@20MA TOP VIEW 0603 ROHS</description>
+      <docs>Hubei-KENTO-Elec-KT-0603R_C2286.pdf</docs>
+      <footprints>
+        <fp>LED*0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LED,0603,Red</field>
+        <field name="Footprint">Diodes:LED_0603_Red</field>
+        <field name="Datasheet">Hubei-KENTO-Elec-KT-0603R_C2286.pdf</field>
+        <field name="LCSC">C2286</field>
+        <field name="Manufacturer Part Number">KT-0603R</field>
+        <field name="Manufacturer">Hubei KENTO Elec</field>
+        <field name="Library Type">Basic</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diodes" part="LED,0603,White">
+      <description>LIGHT EMITTING DIODES (LED) WHITE 173~207MCD@20MA TOP VIEW 0603 ROHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-0603White-light-173-207mcd_C2290.pdf</docs>
+      <footprints>
+        <fp>LED*0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LED,0603,White</field>
+        <field name="Footprint">Diodes:LED_0603_White</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-0603White-light-173-207mcd_C2290.pdf</field>
+        <field name="LCSC">C2290</field>
+        <field name="Manufacturer Part Number">-</field>
+        <field name="Manufacturer">Hubei KENTO Elec</field>
+        <field name="Library Type">Basic</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Embedded_Processors_Controllers" part="ESP32-C3FH4">
+      <description>ESP32-C3, InPackage 4MB Flash, Temp -40~105, QFN32, 22 GPIO, ChipRev v0.4</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Microchip-Tech-ATMEGA328P-AU_C14877.pdf</docs>
+      <footprints>
+        <fp>MA</fp>
+        <fp>TQFP*32*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-C3FH4</field>
+        <field name="Footprint">Embedded_Processors_Controllers:QFN-32-EP(5x5)</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/Microchip-Tech-ATMEGA328P-AU_C14877.pdf</field>
+        <field name="LCSC">C2858491</field>
+        <field name="Manufacturer Part Number">ESP32-C3FH4</field>
+        <field name="Manufacturer">Espressif Systems</field>
+        <field name="Library Type">Extended</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LNA_IN" type="bidirectional"/>
+        <pin num="2" name="VDD3P3" type="power_in"/>
+        <pin num="3" name="VDD3P3" type="power_in"/>
+        <pin num="4" name="XTAL_32K_P" type="bidirectional"/>
+        <pin num="5" name="XTAL_32K_N" type="bidirectional"/>
+        <pin num="6" name="GPIO2" type="bidirectional"/>
+        <pin num="7" name="CHIP_EN" type="input"/>
+        <pin num="8" name="GPIO3" type="bidirectional"/>
+        <pin num="9" name="MTMS" type="bidirectional"/>
+        <pin num="10" name="MTDI" type="bidirectional"/>
+        <pin num="11" name="VDD3P3_RTC" type="power_in"/>
+        <pin num="12" name="MTCK" type="bidirectional"/>
+        <pin num="13" name="MTDO" type="bidirectional"/>
+        <pin num="14" name="GPIO8" type="bidirectional"/>
+        <pin num="15" name="GPIO9" type="bidirectional"/>
+        <pin num="16" name="GPIO10" type="bidirectional"/>
+        <pin num="17" name="VDD3P3_CPU" type="power_in"/>
+        <pin num="18" name="VDD_SPI" type="bidirectional"/>
+        <pin num="19" name="NC" type="no_connect"/>
+        <pin num="20" name="NC" type="no_connect"/>
+        <pin num="21" name="NC" type="no_connect"/>
+        <pin num="22" name="NC" type="no_connect"/>
+        <pin num="23" name="NC" type="no_connect"/>
+        <pin num="24" name="NC" type="no_connect"/>
+        <pin num="25" name="GPIO18" type="bidirectional"/>
+        <pin num="26" name="GPIO19" type="bidirectional"/>
+        <pin num="27" name="U0RXD" type="bidirectional"/>
+        <pin num="28" name="U0TXD" type="bidirectional"/>
+        <pin num="29" name="XTAL_N" type="input"/>
+        <pin num="30" name="XTAL_P" type="input"/>
+        <pin num="31" name="VDDA" type="power_in"/>
+        <pin num="32" name="VDDA" type="input"/>
+        <pin num="33" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Inductors_Chokes_Transformers" part="2.7nH,500mA,100mR">
+      <description>500mA 2.7nH 100mΩ 0402  Inductors (SMD) ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2304140030_TDK-MLK1005S2N7ST000_C76791.pdf</docs>
+      <footprints>
+        <fp>*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">2.7nH,500mA,100mR</field>
+        <field name="Footprint">Inductors_Chokes_Transformers:L_0402</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2304140030_TDK-MLK1005S2N7ST000_C76791.pdf</field>
+        <field name="LCSC">C76791</field>
+        <field name="Manufacturer Part Number">MLK1005S2N7ST000</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Library Type">Extended</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marks" part="Geekble_Logo">
+      <footprints>
+        <fp>Marks_Geekble:Geekble_Logo*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Logo</field>
+        <field name="Value">Geekble_Logo</field>
+        <field name="Footprint">Marks:Geekble_Logo*</field>
+      </fields>
+    </libpart>
+    <libpart lib="Marks" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marks" part="ToolingHole">
+      <description>ToolingHole for SMT assembly</description>
+      <footprints>
+        <fp>*ToolingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">ToolingHole</field>
+        <field name="Footprint">Marks:ToolingHole_JLCPCB</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power_Management_ICs" part="LP5907MFX-3.3/NOPB">
+      <description>90dB@(100Hz),60dB@(100kHz) 250mA 250mV@(250mA) Fixed 3.3V~3.3V Positive 1 5.5V SOT-23-5  Linear Voltage Regulators (LDO) ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1810271029_Texas-Instruments-LP5907MFX-3-3-NOPB_C80670.pdf</docs>
+      <footprints>
+        <fp>*SOT*23*6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP5907MFX-3.3/NOPB</field>
+        <field name="Footprint">Power_Management_ICs:SOT-23-5</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1810271029_Texas-Instruments-LP5907MFX-3-3-NOPB_C80670.pdf</field>
+        <field name="LCSC">C80670</field>
+        <field name="Manufacturer Part Number">LP5907MFX-3.3/NOPB</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Library Type">Extended</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pushbutton_Switches_Relays" part="TS-1088-AR02016">
+      <description>NO 50mA 100MΩ 100000 Times 12V 160gf@±50gf Brick nogging SPST SMD  Tactile Switches ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf</docs>
+      <footprints>
+        <fp>SW-SMD-3.6x6.1_2P</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">TS-1088-AR02016</field>
+        <field name="Footprint">Pushbutton_Switches_Relays:TS-1088-AR020</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf</field>
+        <field name="Manufacturer">XUNPU</field>
+        <field name="Manufacturer Part Number">TS-1088-AR02016</field>
+        <field name="LCSC">C720477</field>
+        <field name="Library Type">Extended</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RadioFrequencyChip_Antenna" part="KH-5020D245M0X">
+      <description>2450MHz Center Frequency, 3.19dBi Peak Gain, Monopole &amp; Single Feeding, 4W, </description>
+      <docs>https://datasheet.lcsc.com/lcsc/1912111437_Shenzhen-Kinghelm-Elec-KH-5020D245M0X_C454142.pdf</docs>
+      <footprints>
+        <fp>Capacitor_SMD:C_0402*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">ANT</field>
+        <field name="Value">KH-5020D245M0X</field>
+        <field name="Footprint">RadioFrequencyChip_Antenna:ANT_5020</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1912111437_Shenzhen-Kinghelm-Elec-KH-5020D245M0X_C454142.pdf</field>
+        <field name="LCSC">C454142</field>
+        <field name="Manufacturer Part Number">KH-5020D245M0X</field>
+        <field name="Manufacturer">Shenzhen Kinghelm Elec</field>
+        <field name="Library Type">Extended</field>
+      </fields>
+      <pins>
+        <pin num="Feed" name="Feed" type="passive"/>
+        <pin num="NC" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors" part="10KR,1%">
+      <description>CHIP RESISTOR - SURFACE MOUNT 10KOHMS ±1% 1/16W 0402 ROHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</docs>
+      <footprints>
+        <fp>R_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10KR,1%</field>
+        <field name="Footprint">Resistors:R_0402</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</field>
+        <field name="LCSC">C25744</field>
+        <field name="Manufacturer Part Number">0402WGF1002TCE</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Library Type">Basic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors" part="33R,1%">
+      <description>33Ω ±1% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1810301314_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf</docs>
+      <footprints>
+        <fp>R_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">33R,1%</field>
+        <field name="Footprint">Resistors:R_0402</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1810301314_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf</field>
+        <field name="LCSC">C25105</field>
+        <field name="Manufacturer Part Number">0402WGF330JTCE</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Library Type">Basic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors" part="5.1KR,1%">
+      <description>CHIP RESISTOR - SURFACE MOUNT 5.1KOHMS ±1% 1/16W 0402 ROHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf</docs>
+      <footprints>
+        <fp>R_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">5.1KR,1%</field>
+        <field name="Footprint">Resistors:R_0402</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf</field>
+        <field name="LCSC">C25905</field>
+        <field name="Manufacturer Part Number">0402WGF5101TCE</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+        <field name="Library Type">Basic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Capacitors">
+      <uri>/Users/soodragon/Library/Mobile Documents/com~apple~CloudDocs/KiCadLib/Symbols/Capacitors.kicad_sym</uri>
+    </library>
+    <library logical="Connectors">
+      <uri>/Users/soodragon/Library/Mobile Documents/com~apple~CloudDocs/KiCadLib/Symbols/Connectors.kicad_sym</uri>
+    </library>
+    <library logical="Crystals">
+      <uri>/Users/soodragon/Library/Mobile Documents/com~apple~CloudDocs/KiCadLib/Symbols/Crystals.kicad_sym</uri>
+    </library>
+    <library logical="Diodes">
+      <uri>/Users/soodragon/Library/Mobile Documents/com~apple~CloudDocs/KiCadLib/Symbols/Diodes.kicad_sym</uri>
+    </library>
+    <library logical="Embedded_Processors_Controllers">
+      <uri>/Users/soodragon/Library/Mobile Documents/com~apple~CloudDocs/KiCadLib/Symbols/Embedded_Processors_Controllers.kicad_sym</uri>
+    </library>
+    <library logical="Inductors_Chokes_Transformers">
+      <uri>/Users/soodragon/Library/Mobile Documents/com~apple~CloudDocs/KiCadLib/Symbols/Inductors_Chokes_Transformers.kicad_sym</uri>
+    </library>
+    <library logical="Marks">
+      <uri>/Users/soodragon/Library/Mobile Documents/com~apple~CloudDocs/KiCadLib/Symbols/Marks.kicad_sym</uri>
+    </library>
+    <library logical="Power_Management_ICs">
+      <uri>/Users/soodragon/Library/Mobile Documents/com~apple~CloudDocs/KiCadLib/Symbols/Power_Management_ICs.kicad_sym</uri>
+    </library>
+    <library logical="Pushbutton_Switches_Relays">
+      <uri>/Users/soodragon/Library/Mobile Documents/com~apple~CloudDocs/KiCadLib/Symbols/Pushbutton_Switches_Relays.kicad_sym</uri>
+    </library>
+    <library logical="RadioFrequencyChip_Antenna">
+      <uri>/Users/soodragon/Library/Mobile Documents/com~apple~CloudDocs/KiCadLib/Symbols/RadioFrequencyChip_Antenna.kicad_sym</uri>
+    </library>
+    <library logical="Resistors">
+      <uri>/Users/soodragon/Library/Mobile Documents/com~apple~CloudDocs/KiCadLib/Symbols/Resistors.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="H11" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U2" pin="11" pinfunction="VDD3P3_RTC" pintype="power_in"/>
+      <node ref="U2" pin="17" pinfunction="VDD3P3_CPU" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="VDD_SPI" pintype="bidirectional"/>
+      <node ref="U2" pin="31" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U2" pin="32" pinfunction="VDDA" pintype="input"/>
+    </net>
+    <net code="2" name="/CHIP_EN">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="H18" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="CHIP_EN" pintype="input"/>
+    </net>
+    <net code="3" name="/GPIO0">
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="XTAL_32K_P" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/GPIO1">
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="XTAL_32K_N" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/GPIO2">
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/GPIO3">
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/GPIO4">
+      <node ref="H5" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U2" pin="9" pinfunction="MTMS" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/GPIO5">
+      <node ref="H6" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="MTDI" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/GPIO6">
+      <node ref="H16" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U2" pin="12" pinfunction="MTCK" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/GPIO7">
+      <node ref="H15" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U2" pin="13" pinfunction="MTDO" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/GPIO8{slash}PWM">
+      <node ref="H14" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/GPIO9{slash}BOOT">
+      <node ref="H13" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H8" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/GPIO10">
+      <node ref="H12" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/GPIO20{slash}RX">
+      <node ref="H19" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U2" pin="27" pinfunction="U0RXD" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/GPIO21{slash}TX">
+      <node ref="H20" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U2" pin="28" pinfunction="U0TXD" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/USB_N">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/USB_P">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="26" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="H17" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H9" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="A1B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="S3" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="S4" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="LED1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="LED2" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="33" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="19" name="Net-(ANT1-PadFeed)">
+      <node ref="ANT1" pin="Feed" pinfunction="Feed" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="VDD3P3" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="VDD3P3" pintype="power_in"/>
+    </net>
+    <net code="21" name="Net-(J1-CC1)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J1-CC2)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J1-D1+)">
+      <node ref="J1" pin="A6" pinfunction="D1+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D2+" pintype="bidirectional"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J1-D1-)">
+      <node ref="J1" pin="A7" pinfunction="D1-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D2-" pintype="bidirectional"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(LED1-PadA)">
+      <node ref="LED1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(LED2-PadA)">
+      <node ref="LED2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(U2-LNA_IN)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="LNA_IN" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Net-(U2-XTAL_N)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="U2" pin="29" pinfunction="XTAL_N" pintype="input"/>
+      <node ref="Y1" pin="3" pinfunction="OSC2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(U2-XTAL_P)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="U2" pin="30" pinfunction="XTAL_P" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="OSC1" pintype="passive"/>
+    </net>
+    <net code="30" name="VIN">
+      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="H10" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="31" name="VUSB">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="H7" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="A4B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="32" name="unconnected-(ANT1-PadNC)">
+      <node ref="ANT1" pin="NC" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-NC-Pad4)">
+      <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U2-NC-Pad19)">
+      <node ref="U2" pin="19" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U2-NC-Pad20)">
+      <node ref="U2" pin="20" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U2-NC-Pad21)">
+      <node ref="U2" pin="21" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U2-NC-Pad22)">
+      <node ref="U2" pin="22" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U2-NC-Pad23)">
+      <node ref="U2" pin="23" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U2-NC-Pad24)">
+      <node ref="U2" pin="24" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
