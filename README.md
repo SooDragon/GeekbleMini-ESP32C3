@@ -9,4 +9,8 @@ GeekbleMini Schematic
 ![GeekbleMini Dimension](https://github.com/SooDragon/GeekbleMini-ESP32C3/assets/82627949/a50fca30-9050-4440-a185-acc8c9c62f64)
 GeekbleMini Dimension
 
-ESP32-C3 Dev Board for Arduino Community
+***
+### Version Log
+- Ver.1.0.0: 최초 공개 버전
+- Ver.1.1.0: Vin/VUSB 설계 변경, VUSB에서 Vin 방향으로 전류가 흐르지 않도록 회로 및 아트웍 수정, Vin에 배터리가 연결 된 상태에서 USB를 연결할 수 있다
+- Ver.1.1.1: 핀헤더에 의해 실크가 가려지지 않게 배치 수정
