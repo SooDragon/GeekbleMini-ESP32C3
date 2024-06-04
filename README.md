@@ -10,7 +10,7 @@ GeekbleMini Schematic
 GeekbleMini Dimension
 
 ***
-### Version Log
-- Ver.1.0.0: 최초 공개 버전![Geekble ESP32 C3 Diagram](https://github.com/SooDragon/GeekbleMini-ESP32C3/assets/82627949/cc59207b-f618-40d4-9f7b-0fdcde03cd0d)
+### Version Log 
+- Ver.1.0.0: 최초 공개 버전
 - Ver.1.1.0: Vin/VUSB 설계 변경, VUSB에서 Vin 방향으로 전류가 흐르지 않도록 회로 및 아트웍 수정, Vin에 배터리가 연결 된 상태에서 USB를 연결할 수 있다
 - Ver.1.1.1: 핀헤더에 의해 실크가 가려지지 않게 배치 수정
