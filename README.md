@@ -16,7 +16,7 @@ GeekbleMini Schematic
 
 Geekble Mini 치수도
 -------------
-![Dimension](https://github.com/SooDragon/GeekbleMini-ESP32C3/assets/82627949/2b6ed8af-8b61-4665-8e7f-34207bd1c29e)
+![Dimension](https://github.com/SooDragon/GeekbleMini-ESP32C3/assets/82627949/7f9556da-58ea-45cf-b5bf-8bbe3479398c)
 GeekbleMini Dimension
 
 Geekble Mini Version Log
