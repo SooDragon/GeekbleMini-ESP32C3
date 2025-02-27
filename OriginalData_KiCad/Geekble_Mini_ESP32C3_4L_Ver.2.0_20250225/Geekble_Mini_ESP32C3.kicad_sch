@@ -7,7 +7,7 @@
 	(title_block
 		(rev "1")
 		(company "Geekble")
-		(comment 1 "2-Layer, 1-Oz, JLC PCB Fabrication")
+		(comment 1 "4-Layer, 1-Oz, JLC PCB Fabrication")
 		(comment 4 "SooDragon")
 	)
 	(lib_symbols
