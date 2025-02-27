@@ -6,7 +6,7 @@ GeekbleMini-ESP32C3 문서에 오신것을 환영합니다
 
 Geekble Mini 핀맵
 -------------
-![GEEKBLE Mini-ESP32@2x](https://github.com/user-attachments/assets/5581ed31-f434-4132-9457-1794cfa2b770)
+![GEEKBLE Mini-ESP32@2x](https://github.com/SooDragon/GeekbleMini-ESP32C3/blob/main/GEEKBLE%20Mini-ESP32-v2%402x.png)
 GeekbleMini PinMap
 
 Geekble Mini 회로도
@@ -24,3 +24,4 @@ Geekble Mini Version Log
 - Ver.1.0.0: 최초 공개 버전
 - Ver.1.1.0: Vin/VUSB 설계 변경, VUSB에서 Vin 방향으로 전류가 흐르지 않도록 회로 및 아트웍 수정, Vin에 배터리가 연결 된 상태에서 USB를 연결할 수 있다
 - Ver.1.1.1: 핀헤더에 의해 실크가 가려지지 않게 배치 수정
+- Ver.2.0: A5(ADC1)핀 D5핀으로 재배치, 재배치에 따른 핀 위치 수정
