@@ -11,7 +11,7 @@ GeekbleMini PinMap
 
 Geekble Mini 회로도
 -------------
-![GeekbleMini Schematic](https://github.com/SooDragon/GeekbleMini-ESP32C3/assets/82627949/97d98bc8-8552-4cfd-b9b2-6a397f466c56)
+![GeekbleMini Schematic](https://github.com/SooDragon/GeekbleMini-ESP32C3/blob/main/GeekbleMini_V2_Schematic.png)
 GeekbleMini Schematic
 
 Geekble Mini 치수도
