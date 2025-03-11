@@ -486,7 +486,7 @@
 		(uuid "a9ef8280-e095-4932-9a80-e2de48e52342")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Geekble Mini ESP32C3FH4/Geekble Mini ESP32C3FH4.pretty/GeekbleMini Ver2.0.step"
+	(model "${KIPRJMOD}/Geekble Mini ESP32C3FH4.pretty/GeekbleMini Ver2.0.step"
 		(offset
 			(xyz 36.2 43.28 2.7)
 		)
@@ -497,7 +497,7 @@
 			(xyz -0 -0 90)
 		)
 	)
-	(model "${KIPRJMOD}/Geekble Mini ESP32C3FH4/Geekble Mini ESP32C3FH4.pretty/Header, Male, 2.54mm, 1x10.STEP"
+	(model "${KIPRJMOD}/Geekble Mini ESP32C3FH4.pretty/Header, Male, 2.54mm, 1x10.STEP"
 		(offset
 			(xyz -7.5 10.5 2.5)
 		)
@@ -508,7 +508,7 @@
 			(xyz 90 -0 -90)
 		)
 	)
-	(model "${KIPRJMOD}/Geekble Mini ESP32C3FH4/Geekble Mini ESP32C3FH4.pretty/Header, Male, 2.54mm, 1x10.STEP"
+	(model "${KIPRJMOD}/Geekble Mini ESP32C3FH4.pretty/Header, Male, 2.54mm, 1x10.STEP"
 		(offset
 			(xyz 7.7 10.5 2.5)
 		)

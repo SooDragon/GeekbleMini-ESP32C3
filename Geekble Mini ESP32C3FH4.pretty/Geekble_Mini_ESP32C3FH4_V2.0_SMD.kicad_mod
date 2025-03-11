@@ -538,7 +538,7 @@
 		(uuid "49273beb-e954-4e04-b630-ae7dd4cb34eb")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Geekble Mini ESP32C3FH4/Geekble Mini ESP32C3FH4.pretty/GeekbleMini Ver2.0.step"
+	(model "${KIPRJMOD}/Geekble Mini ESP32C3FH4.pretty/GeekbleMini Ver2.0.step"
 		(offset
 			(xyz 36.2 43.28 0.15)
 		)
