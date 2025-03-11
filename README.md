@@ -19,6 +19,15 @@ Geekble Mini 치수도
 ![Dimension](https://github.com/SooDragon/GeekbleMini-ESP32C3/assets/82627949/7f9556da-58ea-45cf-b5bf-8bbe3479398c)
 GeekbleMini Dimension
 
+Geekble Mini KiCad 라이브러리 by [@Alcyone-0022](https://github.com/Alcyone-0022)
+-------------
+![Symbol](https://github.com/SooDragon/GeekbleMini-ESP32C3/blob/main/GeekbleMini_Symbol.png)    
+![Footprint](https://github.com/SooDragon/GeekbleMini-ESP32C3/blob/main/GeekbleMini_Footprint.png)    
+KiCad 프로젝트에 사용 가능한 Footprint가 존재합니다.    
+**Geekble Mini ESP32C3FH4.pretty** 폴더와 **Geekble Mini ESP32C3FH4.kicad_sym** 파일을 KiCad 프로젝트 폴더에 옮긴 뒤,    
+각각 풋프린트 에디터→파일→라이브러리 추가→프로젝트 선택→확인→**Geekble Mini ESP32C3FH4.pretty** 폴더 선택,    
+심볼 에디터→파일→라이브러리 추가→프로젝트 선택→확인→**Geekble Mini ESP32C3FH4.kicad_sym** 파일 선택하여 추가하신 뒤 사용해 주세요.
+
 Geekble Mini Version Log
 -------------
 - Ver.1.0.0: 최초 공개 버전
