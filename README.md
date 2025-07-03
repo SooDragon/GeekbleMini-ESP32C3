@@ -6,12 +6,12 @@ GeekbleMini-ESP32C3 문서에 오신것을 환영합니다
 
 Geekble Mini 핀맵
 -------------
-![GEEKBLE Mini-ESP32@2x](https://github.com/SooDragon/GeekbleMini-ESP32C3/blob/main/GEEKBLE%20Mini_V2_PinMap.png)
+![GEEKBLE Mini-ESP32@2x](https://github.com/SooDragon/GeekbleMini-ESP32C3/blob/main/PinMap/GEEKBLE%20Mini_V2_PinMap.png)
 GeekbleMini PinMap
 
 Geekble Mini 회로도
 -------------
-![GeekbleMini Schematic](https://github.com/SooDragon/GeekbleMini-ESP32C3/blob/main/GeekbleMini_V2_Schematic.png)
+![GeekbleMini Schematic](https://github.com/SooDragon/GeekbleMini-ESP32C3/blob/main/Schematic/GeekbleMini_V2_Schematic.png)
 GeekbleMini Schematic
 
 Geekble Mini 치수도
